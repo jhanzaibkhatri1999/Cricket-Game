@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/cricket.html"
+    },
+    {
+      "src": "/cricket",
+      "dest": "/cricket.html"
+    }
+  ]
+}
