@@ -13,21 +13,44 @@ body {
   background-position: center;
 }
 
-.mainHeading{
-color: rgb(205, 241, 1);
-font-size: 50px;
+.mainHeading {
+  color: rgb(205, 241, 1);
+  font-size: 50px;
 }
 
-button{
+.reset-button {
   margin: 5px;
   font-size: 30px;
   border-radius: 10px;
-background-color: rgb(175, 27, 27);
-color: white;
-cursor: pointer;
-  
+  background-color: rgb(65, 235, 102);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  border: none;
 }
-button:hover {
-  background-color: rgb(0, 225, 255);
-  
+
+.reset-button:hover {
+  background-color: rgb(17, 192, 40);
+}
+
+h3 {
+  color: rgb(205, 241, 1);
+  font-size: 25px;
+}
+
+.choice-button {
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  border-radius: 50px;
+  background-color: rgb(65, 235, 102);
+  border: none;
+  cursor: pointer;
+}
+
+.choice-button:hover {
+  background-color: rgb(32, 111, 202);
+}
+
+.choice-image {
+  height: 80px;
 }

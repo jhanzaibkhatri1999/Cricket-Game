@@ -8,30 +8,30 @@
 
 <body>
   <h1 class="mainHeading">Bat Ball Stump Game</h1>
-
-  <button onclick="
+  <button class="choice-button" onclick="
       let computerChoice = compChoice();
       let resultMsg = getResult(computerChoice, 'Bat');
       showResult(computerChoice, 'Bat', resultMsg); 
-  ">
-    Bat
-  </button>
-  <button onclick="
+  "> <img src="media/Bat.png" alt="Bat Image" class="choice-image"> </button>
+
+  <button class="choice-button" onclick="
    computerChoice = compChoice();
    resultMsg = getResult(computerChoice, 'Ball');
    showResult(computerChoice, 'Ball', resultMsg); 
-  ">
-    Ball
-  </button>
-  <button onclick="
+  "><img src="media/Ball.png" alt="Ball Image" class="choice-image"></button>
+
+  <button class="choice-button" onclick="
   computerChoice = compChoice();
   resultMsg = getResult(computerChoice, 'Stump');
    showResult(computerChoice, 'Stump', resultMsg);
-  ">
-    Stump
-  </button>
+  "><img src="media/Stump.png" alt="Stump Image" class="choice-image"></button>
 
-  <button onclick="localStorage.clear()
+  <h3 id="user"></h3>
+  <h3 id="comp"></h3>
+  <h3 id="result"></h3>
+  <h3 id="score"></h3>
+
+  <button class="reset-button" onclick="localStorage.clear()
    resetScore();
   ">Reset</button>
 
